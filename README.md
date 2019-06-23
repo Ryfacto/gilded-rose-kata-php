@@ -49,3 +49,9 @@ Tips
 
 PHPUnit has a very thorough reference manual. It would be particularly useful to explore the
 [Data Providers](https://phpunit.readthedocs.io/en/8.1/writing-tests-for-phpunit.html#data-providers) section.
+
+**Code Coverage**
+
+To enable code coverage you need to [install xdebug](https://xdebug.org/docs/install).
+
+Then you can run the following command `./vendor/bin/phpunit --coverage-html coverage` then `open coverage/index.html`.
